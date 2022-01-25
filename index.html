@@ -47,8 +47,8 @@
    </main>
    <section>
        <h1 class="titulo">Dentre as nossas principais atividades</h1>
-       <div class="conteudo">
-          <ul class="conteudo__lista">
+       <div class="container__carousel">
+          <!-- <ul class="conteudo__lista">
               <li class="lista__item">Dar a medicação nos horários corretos;</li>
               <li class="lista__item">Ouvir e conversar com o idoso;</li>
               <li class="lista__item">Ajudar com o banho;</li>
@@ -60,10 +60,43 @@
               <li class="lista__item">Preparar refeições nutritivas e adequadas às limitações(diabete, colesterol, pressão alta, etc.)</li>
               <li class="lista__item">Levar idoso para passeios</li>
               <li class="lista__item">Manter contato com a família e avisar se algo acontecer.</li>
-          </ul>
-          <h2 class="conteudo__titulo">Ficou interessado?</h2>
-          <div class="conteudo__btn">Saiba mais</div>
+          </ul> -->
+            <div class="carousel__seta-esquerda" id="sta-esq"></div>
+
+            <div class="carousel__card">
+                <img class="card__img" src="img/conversar.png" alt="">
+                <p class="card__texto">Encorajar o idoso a ter contatos sociais</p>
+            </div>
+
+            <div class="carousel__card">
+                <img class="card__img" src="img/higiene.png" alt="">
+                <p class="card__texto">Cuidar da higiene e bem estar do idoso</p>
+            </div>
+
+            <div class="carousel__card">
+                <img class="card__img" src="img/escutar.png" alt="">
+                <p class="card__texto">Escutar o idosos e atender todas as suas necessidades</p>
+            </div>
+
+            <div class="carousel__card">
+                <img class="card__img" src="img/farmacia.png" alt="">
+                <p class="card__texto">Garantir que os remédios sejam dados na hora correta</p>
+            </div>
+
+            <div class="carousel__card">
+                <img class="card__img" src="img/pilates.png" alt="">
+                <p class="card__texto">Incentivar a prática de atividades físicas</p>
+            </div>
+
+            <div class="carousel__card">
+                <img class="card__img" src="img/stethoscope.png" alt="">
+                <p class="card__texto">Realizar primeiros socorros em casos de emergência</p>
+            </div>
+
+            <div class="carousel__seta-direita" id="sta-dir"></div>
         </div>
+        <h2 class="conteudo__titulo">Ficou interessado?</h2>
+        <div class="conteudo__btn">Saiba mais</div>
    </section>
    <footer class="footer">
            <div class="--background-transparente footer__logo">
@@ -88,11 +121,12 @@
                     <div class="--background-transparente">faq</div>
                 </div>
                 <div class="--background-transparente info">
-                    <div class="--background-transparente">outra coisa</div>
+                    <div class="--background-transparente"><a href="views/atribuições.html">Atribuições</a></div>
                     <div class="--background-transparente">outra coisa</div>
                     <div class="--background-transparente">outra coisa</div>
                 </div>
            </div>
    </footer>
+   <script src="js/carousel.js"></script>
 </body>
 </html>
